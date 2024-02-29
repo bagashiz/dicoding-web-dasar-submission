@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<div class="jumbotron">
+			<h1>My Portfolio</h1>
+			<p>
+				Submission for Dicoding's <a href="https://www.dicoding.com/academies/123/">
+					"Belajar Dasar Pemrograman Web"</a> course.
+			</p>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contacts</a></li>
+				<li><a href="#projects">Projects</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<aside>
+			<article class="profile card">
+				<header>
+					<h2>Bagas Hizbullah</h2>
+					<p>Software Engineer</p>
+					<figure>
+						<img src="assets/images/profile.png">
+						<figcaption>Profile Picture</figcaption>
+					</figure>
+				</header>
+
+				<hr>
+
+				<section>
+					<p><i>"An investment in knowledge always pays the best interest."</i></p>
+					<p><strong> - The Pragmatic Programmer</strong></p>
+				</section>
+			</article>
+		</aside>
+
+		<div id="content">
+			<article id="about" class="card">
+				<h2>About</h2>
+				<p>I am an Information Systems student at Brawijaya University. I specialize in web development, with a
+					specific focus on back-end development. I have practical experience working on back-end projects
+					using technologies such as Go, Node.js, and PHP with the Laravel web framework. Additionally, I have
+					acquired knowledge in Linux system administration and cloud computing through hands-on experience
+					with AWS, GCP, and other cloud providers.</p>
+			</article>
+
+			<article id="contact" class="card">
+				<h2>Contacts</h2>
+				<table>
+					<tr>
+						<td>LinkedIn</td>
+						<td><a href="https://www.linkedin.com/in/bagashizbullah/">Bagas Hizbullah</a></td>
+					</tr>
+					<tr>
+						<td>GitHub</td>
+						<td><a href="https://github.com/bagashiz">bagashiz</a></td>
+					</tr>
+				</table>
+			</article>
+
+			<article id="projects" class="card">
+				<h2>Projects</h2>
+				<p>Most of my projects are related to back-end development, with a focus on RESTful web services and
+					APIs. Here are some of my projects:</p>
+				<section>
+					<h3>Go POS</h3>
+					<img src="assets/images/project-1.png" class="featured-image" alt="Go POS">
+					<p>
+						A simple RESTful Point of Sale (POS) web service written in Go programming language. This
+						project is a part of my learning process in understanding Hexagonal Architecture in Go.
+					</p>
+					<p>
+						It uses Gin as the HTTP framework and PostgreSQL as the database with pgx as the driver and
+						Squirrel as the query builder. It also utilizes Redis as the caching layer with go-redis as the
+						client.
+					</p>
+					<p>
+						This project idea was inspired by the Ide Project untuk Upgrade Portfolio Backend Engineer video
+						on YouTube by Asdita Prasetya, which provided valuable guidance and inspiration for its
+						development.
+					</p>
+				</section>
+				<section>
+					<h3>SEA Cinema Tix</h3>
+					<img src="assets/images/project-2.png" class="featured-image" alt="SEA Cinema Tix">
+					<p>This is a challenge project for the Compfest 15 Software Engineering Academy (SEA) program.</p>
+					<p>
+						The SEA Cinema Tix is a movie ticket booking web application developed to enhance the moviegoing
+						experience for customers of SEA Cinema.
+					</p>
+					<p>
+						Built with Laravel 10 Framework, TailwindCSS, and powered by a MySQL database, this application
+						provides a seamless and efficient platform for users to browse movies, book tickets, and manage
+						their reservations.
+					</p>
+				</section>
+			</article>
+		</div>
+	</main>
+
+	<footer>
+		<p>made with &hearts; by <a href="https://github.com/bagashiz">bagashiz</a></p>
+	</footer>
+</body>
+
+</html>
